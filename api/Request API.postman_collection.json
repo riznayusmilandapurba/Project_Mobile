@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "289fa66e-cb14-4b76-9895-64b96f04d146",
+		"name": "Request API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14994822"
+	},
+	"item": [
+		{
+			"name": "Kosakata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.103/api_server/getKosakata.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"103"
+					],
+					"path": [
+						"api_server",
+						"getKosakata.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
